@@ -24,6 +24,12 @@ Route::get('/user', function (Request $request) {
     return $request->user();
 })->middleware('auth:sanctum');
 
+// مسار افتراضي باسم login لمنع أخطاء الـ 500 عند محاولة إعادة التوجيه للطلبات غير المصرحة
+Route::get('/login', function () {
+    return response()->json(['message' => 'Unauthenticated.'], 401);
+})->name('login');
+
+
 
 // =========================================================
 // مسارات الموقع العام (Frontend Website) - للزوار بدون تسجيل دخول
