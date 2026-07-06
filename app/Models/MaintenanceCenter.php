@@ -1,0 +1,18 @@
+<?php
+
+namespace App\Models;
+
+use Illuminate\Database\Eloquent\Model;
+use Spatie\Translatable\HasTranslations;
+
+class MaintenanceCenter extends Model
+{
+    use HasTranslations;
+
+    protected $fillable = ['name', 'city', 'phone', 'address', 'location_link', 'sort_order'];
+    public $translatable = ['name', 'city', 'address'];
+
+    protected $casts = [
+        'phone' => 'array',
+    ];
+}
