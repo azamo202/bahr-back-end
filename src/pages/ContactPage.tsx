@@ -29,8 +29,8 @@ const ContactPage: React.FC = () => {
               </div>
               <div>
                 <h2 className="font-heading font-semibold">{t.contact.email}</h2>
-                <p className="text-muted-foreground text-sm">info@chrani.com</p>
-                <p className="text-muted-foreground text-sm">support@chrani.com</p>
+                <p className="text-muted-foreground text-sm">info@bahralalwan.com</p>
+                <p className="text-muted-foreground text-sm">support@bahralalwan.com</p>
               </div>
             </div>
 
@@ -70,7 +70,7 @@ const ContactPage: React.FC = () => {
             allowFullScreen
             loading="lazy"
             referrerPolicy="no-referrer-when-downgrade"
-            title="Chrani Location"
+            title="Bahr Alaloan Location"
           />
         </div>
       </div>

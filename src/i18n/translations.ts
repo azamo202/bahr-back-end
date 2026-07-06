@@ -29,7 +29,7 @@ export const translations: Record<Language, TranslationKeys> = {
     support: { title: 'Support & Warranty Center', manuals: 'User Manuals', videos: 'Video Tutorials', centers: 'Service Centers', download: 'Download PDF' },
     about: { title: 'About Us', history: 'Our History', vision: 'Our Vision', mission: 'Our Mission' },
     contact: { title: 'Contact Us', phone: 'Phone', email: 'Email', address: 'Address', social: 'Follow Us' },
-    footer: { rights: '© 2024 Chrani. All rights reserved.', quickLinks: 'Quick Links' },
+    footer: { rights: '© 2024 Bahr Alaloan. All rights reserved.', quickLinks: 'Quick Links' },
     states: { loading: 'Loading...', error: 'Something went wrong.', retry: 'Try Again', empty: 'No items to display.' },
   },
   ar: {

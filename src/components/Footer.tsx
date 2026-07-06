@@ -20,8 +20,8 @@ const Footer: React.FC = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div className="space-y-4">
             <div className="flex items-center gap-2">
-              <img src={logo} alt="Chrani" className="h-8 w-8 object-contain brightness-0 invert" />
-              <span className="font-heading font-bold text-lg">Chrani</span>
+              <img src={logo} alt="Bahr Alaloan" className="h-8 w-8 object-contain brightness-0 invert" />
+              <span className="font-heading font-bold text-lg">Bahr Alaloan</span>
             </div>
             <p className="text-sm opacity-70 max-w-xs">
               Premium home appliances for modern living. Quality you can trust.
@@ -45,7 +45,7 @@ const Footer: React.FC = () => {
             <h3 className="font-heading font-semibold mb-4">{t.contact.title}</h3>
             <div className="space-y-2 text-sm opacity-70">
               <p>+964 750 123 4567</p>
-              <p>info@chrani.com</p>
+              <p>info@bahralalwan.com</p>
               <p>Erbil, Kurdistan Region, Iraq</p>
             </div>
           </div>

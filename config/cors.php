@@ -7,9 +7,9 @@ return [
     'allowed_methods' => ['*'],
 
     'allowed_origins' => [
-        'https://dashboard.chranico.com',
-        'https://chranico.com',
-        'https://www.chranico.com',
+        'https://dashboard.bahralalwan.com',
+        'https://bahralalwan.com',
+        'https://www.bahralalwan.com',
         'http://localhost:3000',
         
     ],

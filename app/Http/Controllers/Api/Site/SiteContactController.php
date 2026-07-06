@@ -25,7 +25,7 @@ class SiteContactController extends Controller
         try {
             // 2. إرسال الإيميل
             Mail::raw("رسالة جديدة من الموقع:\n\nالاسم: {$data['name']}\nالبريد الإلكتروني: {$data['email']}\n\nالرسالة:\n{$data['message']}", function ($message) use ($data) {
-                $message->to('chrani.company@gmail.com')
+                $message->to('info@bahralalwan.com')
                         ->subject('رسالة اتصال جديدة: ' . $data['name']);
             });
 

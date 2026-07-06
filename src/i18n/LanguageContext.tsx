@@ -12,7 +12,7 @@ const LanguageContext = createContext<LanguageContextType | undefined>(undefined
 
 export const LanguageProvider: React.FC<{ children: React.ReactNode }> = ({ children }) => {
   const [lang, setLangState] = useState<Language>(() => {
-    const saved = localStorage.getItem('chrani-lang') as Language;
+    const saved = localStorage.getItem('bahr-lang') as Language;
     return saved && ['en', 'ar', 'ku'].includes(saved) ? saved : 'en';
   });
 
@@ -21,7 +21,7 @@ export const LanguageProvider: React.FC<{ children: React.ReactNode }> = ({ chil
 
   const setLang = useCallback((newLang: Language) => {
     setLangState(newLang);
-    localStorage.setItem('chrani-lang', newLang);
+    localStorage.setItem('bahr-lang', newLang);
   }, []);
 
   useEffect(() => {

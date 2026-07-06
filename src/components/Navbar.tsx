@@ -24,9 +24,9 @@ const Navbar: React.FC = () => {
   return (
     <header className="sticky top-0 z-50 bg-background/95 backdrop-blur-md border-b">
       <nav className="container mx-auto flex items-center justify-between h-16 px-4" aria-label="Main navigation">
-        <Link to="/" className="flex items-center gap-2 shrink-0" aria-label="Chrani Home">
-          <img src={logo} alt="Chrani" className="h-10 w-10 object-contain" />
-          <span className="font-heading font-bold text-xl tracking-tight text-foreground">Chrani</span>
+        <Link to="/" className="flex items-center gap-2 shrink-0" aria-label="Bahr Alaloan Home">
+          <img src={logo} alt="Bahr Alaloan" className="h-10 w-10 object-contain" />
+          <span className="font-heading font-bold text-xl tracking-tight text-foreground">Bahr Alaloan</span>
         </Link>
 
         {/* Desktop nav */}

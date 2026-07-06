@@ -10,7 +10,7 @@ const AboutPage: React.FC = () => {
     {
       icon: History,
       title: t.about.history,
-      content: 'Founded in 2005, Chrani has grown from a small regional distributor into one of the leading home appliance brands in the Middle East. With over 18 years of experience, we have served millions of households with products that combine innovation, durability, and elegant design.',
+      content: 'Founded in 2005, Bahr Alaloan has grown from a small regional distributor into one of the leading home appliance brands in the Middle East. With over 18 years of experience, we have served millions of households with products that combine innovation, durability, and elegant design.',
     },
     {
       icon: Eye,
