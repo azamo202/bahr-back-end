@@ -15,11 +15,13 @@ class StoreSetting extends Model
         'instagram',
         'youtube',
         'stats',
+        'reviews',
     ];
 
     protected $casts = [
         'phone' => 'array',
         'stats' => 'array',
+        'reviews' => 'array',
     ];
 }
 

@@ -33,6 +33,10 @@ class StoreSettingController extends Controller
             'stats.*.labelAr' => 'nullable|string',
             'stats.*.labelEn' => 'nullable|string',
             'stats.*.labelKu' => 'nullable|string',
+            'reviews' => 'nullable|array',
+            'reviews.*.textAr' => 'nullable|string',
+            'reviews.*.textEn' => 'nullable|string',
+            'reviews.*.textKu' => 'nullable|string',
         ]);
 
         $settings = StoreSetting::first();
