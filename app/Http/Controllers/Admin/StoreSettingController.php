@@ -27,6 +27,12 @@ class StoreSettingController extends Controller
             'facebook' => 'nullable|url',
             'instagram' => 'nullable|url',
             'youtube' => 'nullable|url',
+            'stats' => 'nullable|array',
+            'stats.*.valueAr' => 'nullable|string',
+            'stats.*.valueEn' => 'nullable|string',
+            'stats.*.labelAr' => 'nullable|string',
+            'stats.*.labelEn' => 'nullable|string',
+            'stats.*.labelKu' => 'nullable|string',
         ]);
 
         $settings = StoreSetting::first();
