@@ -16,12 +16,16 @@ class StoreSetting extends Model
         'youtube',
         'stats',
         'reviews',
+        'working_hours',
+        'faqs',
     ];
 
     protected $casts = [
-        'phone' => 'array',
-        'stats' => 'array',
-        'reviews' => 'array',
+        'phone'         => 'array',
+        'stats'         => 'array',
+        'reviews'       => 'array',
+        'working_hours' => 'array',
+        'faqs'          => 'array',
     ];
 }
 
